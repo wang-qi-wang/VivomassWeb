@@ -3,7 +3,6 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="icon" href="data:image/ico;base64,aWNv">
 	<title>Vivo Mass</title>
 	<style type="text/css">
 		:root{
@@ -12,9 +11,25 @@
 		body{
 			font-family: STKaiti, KaiTi;
 		}
-		.block{
+		.bigblock{
 			width: 100%;
-			padding-top: 56.25%;
+			padding-top: 55%;
+			box-sizing: border-box;
+			position: relative;
+			container-type: size;
+			overflow: hidden;
+		}
+		.middleblock{
+			width: 100%;
+			padding-top: 45%;
+			box-sizing: border-box;
+			position: relative;
+			container-type: size;
+			overflow: hidden;
+		}
+		.smallblock{
+			width: 100%;
+			padding-top: 25%;
 			box-sizing: border-box;
 			position: relative;
 			container-type: size;
@@ -31,14 +46,6 @@
 			top: 5%;
 		}
 		.intro{
-			left: 20%;
-			width: 75%;
-			position: absolute;
-			top: 25%;
-			text-align: justify;
-			text-align-last: left;
-		}
-		.bigintro{
 			left: 20%;
 			width: 75%;
 			position: absolute;
@@ -73,13 +80,13 @@
 </head>
 <body>
 <!--...--> 
-	<div class="block">
+	<div class="bigblock">
 		<div class="pic">
 			<img src="images/oven_01.png" width="100%">
 		</div>
 	</div>
 <!--...--> 
-	<div class = "block">
+	<div class = "middleblock">
 		<div class="icon">
 			<img src="images/temperature.png" width=100%>
 		</div>
@@ -94,13 +101,13 @@
 		</div>
 	</div>
 <!--...--> 
-	<div class="block">
+	<div class="bigblock">
 		<div class="pic">
 			<img src="images/oven_04.png" width="100%">
 		</div>
 	</div>
 <!--...--> 
-	<div class = "block">
+	<div class = "middleblock">
 		<div class="icon">
 			<img src="images/triangle.png" width=100%>
 		</div>
@@ -113,13 +120,13 @@
 		</div>
 	</div>
 <!--...--> 
-	<div class="block">
+	<div class="bigblock">
 		<div class="pic">
 			<img src="images/oven_06.png" width="100%">
 		</div>
 	</div>
 <!--...--> 
-	<div class = "block">
+	<div class = "smallblock">
 		<div class="icon">
 			<img src="images/box.png" width=100%>
 		</div>
@@ -131,13 +138,13 @@
 		</div>
 	</div>
 <!--...--> 
-	<div class="block">
+	<div class="bigblock">
 		<div class="pic">
 			<img src="images/oven_08.png" width="100%">
 		</div>
 	</div>
 <!--...--> 
-	<div class = "block">
+	<div class = "smallblock">
 		<div class="icon">
 			<img src="images/layers.png" width=100%>
 		</div>
@@ -147,11 +154,11 @@
 		</div>
 	</div>
 <!--...--> 
-	<div class = "block">
+	<div class = "bigblock">
 		<div class="icon">
 			<img src="images/thumb.png" width=100%>
 		</div>
-		<div class="bigintro">
+		<div class="intro">
 			<p class="subtitle">Usability</p>
 			<p>The AccuTemp Box features a hybrid design with push buttons and mechanical knobs, equipped with a dual-row, three-digit digital display that can simultaneously show the measured temperature and set value, as well as operational status and fault information. The knob switch design facilitates quick device switching, and the prominent green power indicator light makes it easy for users to observe the instrument's working status. The specific advantages are:</p>
 			<ol>
@@ -201,7 +208,7 @@
 		</div>
 	</div>
 <!--...--> 
-	<div class = "block">
+	<div class = "smallblock">
 		<div class="icon">
 			<img src="images/email.png" width=100%>
 		</div>
