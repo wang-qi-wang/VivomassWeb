@@ -45,6 +45,14 @@
 		}
 		.smallblock{
 			width: 100%;
+			padding-top: 38%;
+			box-sizing: border-box;
+			position: relative;
+			container-type: size;
+			overflow: hidden;
+		}
+		.miniblock{
+			width: 100%;
 			padding-top: 35%;
 			box-sizing: border-box;
 			position: relative;
@@ -96,6 +104,27 @@
 			font-size: 1.5rem;
 			list-style: none;
 		}
+		ul.dot{
+			margin: 0;
+			padding: 0;
+		}
+		ul.dot li{
+			margin: 0;
+			padding: 0;
+			font-size: 1.5rem;
+			list-style: disc inside;
+		}
+		ul.check{
+			margin: 1.5rem;
+			padding: 0;
+		}
+		ul.check li{
+			margin: 0;
+			padding: 0;
+			font-size: 1.5rem;
+			list-style:	'\2713' inside;
+		}
+		
 	</style>
 </head>
 <body>
@@ -125,7 +154,7 @@
 <!--...--> 
 	<div class="imgblock">
 		<div class="pic">
-			<img src="images/oven_04.png" width="100%">
+			<img src="images/oven_04_01.png" width="100%">
 		</div>
 	</div>
 <!--...--> 
@@ -150,15 +179,31 @@
 		</div>
 	</div>
 <!--...--> 
-	<div class = "smallblock">
+	<div class = "bigblock">
 		<div class="icon">
 			<img src="images/box.png" width=100%>
 		</div>
 		<div class="intro">
 			<p class="subtitle">Compatibility</p>
-			<p>The AccuTemp Box is compatible with various models of capillary chromatography columns currently available on the market by selecting different models of the Vivo Chamber. This includes, but is not limited to, the Aurora Series column series from ionopticks company, the µPAC™ Neo HPLC from Thermo Fisher, and various home-made capillary columns.<p>
+			<p>Vivo Chamber is compatible with Nanospray Flex source<br>Supports various UHPLC columns, including:<p>
 
-			<p>It features two types of column oven housings, one suitable for nano-Spray™ Sources and the other suitable for EASY-Spray™ Sources.</p>
+			<ul class="dot">
+				<li>IonOpticks Aurora Series:</li>
+					<ul class="check">
+						<li>&emsp;Aurora Ultimate TS 25 cm nanoflow UHPLC column</li>
+						<li>&emsp;Aurora Elite TS 15 cm nanoflow UHPLC column</li>
+						<li>&emsp;Aurora Rapid 5 cm nanoflow UHPLC column</li>
+					</ul>
+				<li>Thermo Fisher μPAC™ Neo HPLC columns:</li>
+					<ul class="check">
+						<li>&emsp;110 cm μPAC™ Neo HPLC Column</li>
+						<li>&emsp;50 cm μPAC™ Neo HPLC Column</li>
+						<li>&emsp;50 cm Low-Load μPAC™ Neo HPLC Column</li>
+						<li>&emsp;5.5 cm High Throughput μPAC™ Neo HPLC Column</li>
+					</ul>
+				<li>Various custom-made capillary columns</li>
+			</ul>
+			<p>These compatibility details ensure versatile application across different experimental needs, providing optimal performance for proteomics workflows.</p>
 
 			<p class="highlight">Procurement contact: vivochamber@gmail.com</p>
 		</div>
@@ -170,7 +215,7 @@
 		</div>
 	</div>
 <!--...--> 
-	<div class = "middleblock">
+	<div class = "smallblock">
 		<div class="icon">
 			<img src="images/layers.png" width=100%>
 		</div>
@@ -236,7 +281,7 @@
 		</div>
 	</div>
 <!--...--> 
-	<div class = "smallblock">
+	<div class = "miniblock">
 		<div class="icon">
 			<img src="images/email.png" width=100%>
 		</div>
